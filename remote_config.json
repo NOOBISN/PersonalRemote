@@ -9,7 +9,7 @@
       "features": {
         "aim": "safe",
         "esp": "safe",
-        "bullettrack": "unsafe",
+        "bullettrack": "safe",
         "sdk": "safe"
       }
     },
