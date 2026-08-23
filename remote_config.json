@@ -3,7 +3,7 @@
   "download": "https://github.com/NOOBISN/Personal/releases/download/personal/panda.zip",
   "games": {
     "com.pubg.imobile": {
-      "automode": false,
+      "automode": true,
       "floating": true,
       "version": "4.5.0",
       "features": {
