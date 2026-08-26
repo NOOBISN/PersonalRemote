@@ -1,142 +1,60 @@
 {
+  "_comment": "RemoteConfig fetched at login. Per game: automode/floating = launch modes; version = supported game versionName (EXACT match \u00e2\u20ac\u201d a wrong/old value BLOCKS launch, leave \"\" to disable the version gate); features aim/esp/bullettrack/sdk = \"safe\" or \"unsafe\" (anything not \"safe\" shows the red icon + tab warning).",
   "download": "https://github.com/NOOBISN/Personal/releases/download/personal/panda.zip",
-  "aimConfig": {
-    "range": 150,
-    "distance": 100,
-    "bulletSpeed": 600,
-    "targetBy": 1,
-    "aimWhen": 3,
-    "target": 2,
-    "ignoreKnocked": true,
-    "ignoreBot": true,
-    "targetLine": false,
-    "recoilComp": 50,
-    "aimTouch": {
-      "recoilSlot1": 50,
-      "recoilSlot2": 50,
-      "aimingSpeed": 18,
-      "smoothness": 20,
-      "touchSize": 600,
-      "touchPosX": 650,
-      "touchPosY": 1400,
-      "changeRotation": false,
-      "showTouchArea": false
-    }
-  },
   "games": {
     "com.pubg.imobile": {
       "automode": true,
       "floating": true,
       "version": "4.5.0",
-      "aimmode": 3,
-      "memory": {
-        "lessRecoil": false,
-        "smallCrosshair": false,
-        "aimbot100m": false,
-        "hitXEffect": false,
-        "magicBullet": false,
-        "noShake": true,
-        "fastSwitchWeapon": true,
-        "fastShoot": false,
-        "fastVehicle": false,
-        "forceTpp": false,
-        "nextZone": true,
-        "redZone": true,
-        "gameInfo": true,
-        "selfRevive": false,
-        "singleShotToAuto": false
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
       }
     },
     "com.tencent.ig": {
       "automode": true,
       "floating": true,
       "version": "4.5.0",
-      "aimmode": 3,
-      "memory": {
-        "lessRecoil": false,
-        "smallCrosshair": false,
-        "aimbot100m": false,
-        "hitXEffect": false,
-        "magicBullet": false,
-        "noShake": true,
-        "fastSwitchWeapon": true,
-        "fastShoot": false,
-        "fastVehicle": false,
-        "forceTpp": false,
-        "nextZone": true,
-        "redZone": true,
-        "gameInfo": true,
-        "selfRevive": false,
-        "singleShotToAuto": false
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
       }
     },
     "com.pubg.krmobile": {
       "automode": true,
       "floating": true,
       "version": "4.5.0",
-      "aimmode": 2,
-      "memory": {
-        "lessRecoil": false,
-        "smallCrosshair": false,
-        "aimbot100m": false,
-        "hitXEffect": false,
-        "magicBullet": false,
-        "noShake": true,
-        "fastSwitchWeapon": true,
-        "fastShoot": false,
-        "fastVehicle": false,
-        "forceTpp": false,
-        "nextZone": true,
-        "redZone": true,
-        "gameInfo": true,
-        "selfRevive": false,
-        "singleShotToAuto": false
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
       }
     },
     "com.vng.pubgmobile": {
-      "automode": false,
+      "automode": true,
       "floating": true,
       "version": "4.5.0",
-      "aimmode": 1,
-      "memory": {
-        "lessRecoil": false,
-        "smallCrosshair": false,
-        "aimbot100m": false,
-        "hitXEffect": false,
-        "magicBullet": false,
-        "noShake": true,
-        "fastSwitchWeapon": true,
-        "fastShoot": false,
-        "fastVehicle": false,
-        "forceTpp": false,
-        "nextZone": true,
-        "redZone": true,
-        "gameInfo": true,
-        "selfRevive": false,
-        "singleShotToAuto": false
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
       }
     },
     "com.rekoo.pubgm": {
       "automode": true,
       "floating": true,
       "version": "4.5.0",
-      "aimmode": 0,
-      "memory": {
-        "lessRecoil": false,
-        "smallCrosshair": false,
-        "aimbot100m": false,
-        "hitXEffect": false,
-        "magicBullet": false,
-        "noShake": true,
-        "fastSwitchWeapon": true,
-        "fastShoot": false,
-        "fastVehicle": false,
-        "forceTpp": false,
-        "nextZone": true,
-        "redZone": true,
-        "gameInfo": true,
-        "selfRevive": false,
-        "singleShotToAuto": false
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
       }
     }
   }
