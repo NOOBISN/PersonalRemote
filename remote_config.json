@@ -1,6 +1,7 @@
 {
-  "_comment": "RemoteConfig fetched at login. Per game: automode/floating = launch modes; version = supported game versionName (EXACT match \u00e2\u20ac\u201d a wrong/old value BLOCKS launch, leave \"\" to disable the version gate); features aim/esp/bullettrack/sdk = \"safe\" or \"unsafe\" (anything not \"safe\" shows the red icon + tab warning).",
-  "download": "https://github.com/NOOBISN/Personal/releases/download/personal/panda.zip",
+  "_comment": "RemoteConfig fetched at login. Per game: automode/floating = launch modes; version = supported game versionName (EXACT match \u00e2\u20ac\u201d a wrong/old value BLOCKS launch, leave \"\" to disable the version gate); features aim/esp/bullettrack/sdk = \"safe\" or \"unsafe\" (anything not \"safe\" shows the red icon + tab warning). payloadVersion identifies the download zip's contents \u2014 bump it any time panda.zip actually changes, so devices that already have that exact version on disk skip re-downloading it; leave blank to always force a fresh download.",
+  "download": "https://cdn.jsdelivr.net/gh/NOOBISN/Personal@refs/heads/main/panda.zip",
+  "payloadVersion": "1",
   "games": {
     "com.pubg.imobile": {
       "automode": true,
