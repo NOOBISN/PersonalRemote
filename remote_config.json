@@ -8,7 +8,7 @@
     "aimWhen": 3,
     "target": 2,
     "ignoreKnocked": true,
-    "ignoreBot": true,
+    "ignoreBot": false,
     "targetLine": false,
     "recoilComp": 50,
     "aimTouch": {
