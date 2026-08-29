@@ -9,7 +9,7 @@
     "target": 2,
     "ignoreKnocked": true,
     "ignoreBot": false,
-    "targetLine": false,
+    "targetLine": true,
     "recoilComp": 50,
     "aimTouch": {
       "recoilSlot1": 50,
