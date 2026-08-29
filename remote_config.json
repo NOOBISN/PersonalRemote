@@ -23,9 +23,33 @@
       "showTouchArea": false
     }
   },
+  "espConfig": {
+    "radarSize": 0,
+    "maxDrawDistance": 400,
+    "core": {
+      "line": true,
+      "box": false,
+      "skeleton": true,
+      "distance": true,
+      "health": true,
+      "name": true,
+      "head": true,
+      "alert": true,
+      "weapon": true,
+      "throwables": true,
+      "lootBox": false,
+      "noBot": false,
+      "lootItems": false,
+      "radar": false,
+      "playerId": true,
+      "playerNation": true,
+      "teamId": true,
+      "playerAction": false
+    }
+  },
   "games": {
     "com.pubg.imobile": {
-      "automode": true,
+      "automode": false,
       "floating": true,
       "version": "4.5.0",
       "aimmode": 3,
