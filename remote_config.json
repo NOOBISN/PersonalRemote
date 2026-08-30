@@ -28,7 +28,7 @@
     "maxDrawDistance": 400,
     "core": {
       "line": true,
-      "box": false,
+      "box": true,
       "skeleton": true,
       "distance": true,
       "health": true,
