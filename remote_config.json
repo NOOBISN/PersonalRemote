@@ -49,7 +49,7 @@
   },
   "games": {
     "com.pubg.imobile": {
-      "automode": false,
+      "automode": true,
       "floating": true,
       "version": "4.5.0",
       "aimmode": 3,
