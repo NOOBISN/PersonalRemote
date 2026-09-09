@@ -1,61 +1,25 @@
 {
-  "_comment": "RemoteConfig fetched at login. Per game: automode/floating = launch modes; version = supported game versionName (EXACT match \u00e2\u20ac\u201d a wrong/old value BLOCKS launch, leave \"\" to disable the version gate); features aim/esp/bullettrack/sdk = \"safe\" or \"unsafe\" (anything not \"safe\" shows the red icon + tab warning).",
   "download": "https://github.com/NOOBISN/Personal/releases/download/personal/panda.zip",
   "games": {
     "com.pubg.imobile": {
-      "automode": false,
-      "floating": true,
-      "version": "4.5.0",
-      "features": {
-        "aim": "safe",
-        "esp": "safe",
-        "bullettrack": "safe",
-        "sdk": "safe"
-      }
+      "available": true,
+      "version": "4.5.0"
     },
     "com.tencent.ig": {
-      "automode": false,
-      "floating": true,
-      "version": "4.5.0",
-      "features": {
-        "aim": "safe",
-        "esp": "safe",
-        "bullettrack": "safe",
-        "sdk": "safe"
-      }
+      "available": true,
+      "version": "4.5.0"
     },
     "com.pubg.krmobile": {
-      "automode": false,
-      "floating": true,
-      "version": "4.5.0",
-      "features": {
-        "aim": "safe",
-        "esp": "safe",
-        "bullettrack": "safe",
-        "sdk": "safe"
-      }
+      "available": true,
+      "version": "4.5.0"
     },
     "com.vng.pubgmobile": {
-      "automode": false,
-      "floating": true,
-      "version": "4.5.0",
-      "features": {
-        "aim": "safe",
-        "esp": "safe",
-        "bullettrack": "safe",
-        "sdk": "safe"
-      }
+      "available": true,
+      "version": "4.5.0"
     },
     "com.rekoo.pubgm": {
-      "automode": false,
-      "floating": true,
-      "version": "4.5.0",
-      "features": {
-        "aim": "safe",
-        "esp": "safe",
-        "bullettrack": "safe",
-        "sdk": "safe"
-      }
+      "available": true,
+      "version": "4.5.0"
     }
   }
 }
