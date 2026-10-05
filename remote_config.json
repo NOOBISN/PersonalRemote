@@ -3,13 +3,13 @@
   "download": "https://github.com/NOOBISN/Personal/releases/download/personal/panda.zip",
   "games": {
     "com.pubg.imobile": {
-      "automode": false,
+      "automode": true,
       "floating": true,
       "version": "4.6.0",
       "features": {
         "aim": "safe",
         "esp": "safe",
-        "bullettrack": "unsafe",
+        "bullettrack": "safe",
         "sdk": "safe"
       }
     },
@@ -18,9 +18,9 @@
       "floating": true,
       "version": "4.6.0",
       "features": {
-        "aim": "unsafe",
+        "aim": "safe",
         "esp": "safe",
-        "bullettrack": "unsafe",
+        "bullettrack": "safe",
         "sdk": "safe"
       }
     },
@@ -29,9 +29,9 @@
       "floating": true,
       "version": "4.6.0",
       "features": {
-        "aim": "unsafe",
+        "aim": "safe",
         "esp": "safe",
-        "bullettrack": "unsafe",
+        "bullettrack": "safe",
         "sdk": "safe"
       }
     },
@@ -40,9 +40,9 @@
       "floating": true,
       "version": "4.6.0",
       "features": {
-        "aim": "unsafe",
+        "aim": "safe",
         "esp": "safe",
-        "bullettrack": "unsafe",
+        "bullettrack": "safe",
         "sdk": "safe"
       }
     },
@@ -51,9 +51,9 @@
       "floating": true,
       "version": "4.6.0",
       "features": {
-        "aim": "unsafe",
+        "aim": "safe",
         "esp": "safe",
-        "bullettrack": "unsafe",
+        "bullettrack": "safe",
         "sdk": "safe"
       }
     }
